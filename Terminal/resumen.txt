@@ -1,5 +1,3 @@
-Lista de comandos:
-
 1 - cd (cambiar de directorio)
 2 - mv (mover o renombrar)
 3 - cp (copiar)
