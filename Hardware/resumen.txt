@@ -1,0 +1,3 @@
+1 - Motherboard (Placa base donde van otros componentes de hardware conectados)
+2 - Disco Duro (Memoria secundaria que conserva los archivos)
+3 - Memoria RAM (Almacena de forma temporal datos de programas)
