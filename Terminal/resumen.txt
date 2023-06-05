@@ -2,4 +2,5 @@
 2 - mv (mover o renombrar)
 3 - cp (copiar)
 4 - rm -r (elimina archivo o directorio)
-5 - nano (abre un editor de texto)
+5 - nano (abre un editor de texto) .
+
