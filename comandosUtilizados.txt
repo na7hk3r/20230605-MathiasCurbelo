@@ -1,0 +1,95 @@
+  510  cd desktop
+  511  mkdir 20230605-MathiasCurbelo
+  512  cd 20230605-MathiasCurbelo/
+  513  git init
+  514  git remote add origin https://github.com/na7hk3r/20230605-MathiasCurbelo.git
+  515  git branch -v
+  516  git remote -v
+  517  touch comandos.txt main.js index.html
+  518  git commit -m "commit 01 de MathiasCurbelo"
+  519  git add .
+  520  git commit -m "commit 01 de MathiasCurbelo"
+  521  git push origin main
+  522  git branch feature01
+  523  git checkout feature01
+  524  mkdir Terminal Hardware
+  525  touch Hardware/resumen.txt
+  526  ls
+  527  ls -R
+  528  cd Hardware
+  529  cp resumen.txt ../Terminal
+  530  ls -R
+  531  cd ..
+  532  ls -R
+  533  git push origin feature01
+  534  git add .
+  535  git commit -m "commit 02 de MathiasCurbelo"
+  536  git push origin feature01
+  537  git branch feature02
+  538  cd Terminal
+  539  nano resumen.txt
+  540  cd ..
+  541  cd hardware
+  542  nano resumen.txt
+  543  cat resumen.txt
+  544  git add .
+  545  git commit -m "commit 03 de MathiasCurbelo"
+  546  git push origin feature02
+  547  git checkout feature02
+  548  ls -R
+  549  git add .
+  550  git commit --amend -m "commit 03 de MathiasCurbelo"
+  551  git push origin feature02
+  552  git pull 
+  553  git pull origin feature02
+  554  ls 
+  555  cat resumen.txt
+  556  git status
+  557  git add .
+  558  git commit -m "commit 03 de MathiasCurbelo"
+  559  git push origin feature02
+  560  git status
+  561  git add . 
+  562  git --ammend -m "commit 03 de MathiasCurbelo"
+  563  git --amend -m "commit 03 de MathiasCurbelo"
+  564  git commit --amend -m "commit 03 de MathiasCurbelo"
+  565  git status
+  566  git add ../Terminal/resumen.txt
+  567  git commit --amend -m "commit 02 de MathiasCurbelo"
+  568  git push origin feature02
+  569  git push origin feature02
+  570  cd ..
+  571  ls
+  572  cd Terminal
+  573  cat resumen.txt 
+  574  git status
+  575  nano resumen.txt 
+  576  git status
+  577  git checkout feature01
+  578  git checkout feature02
+  579  git status
+  580  ls 
+  581  nano resumen.txt 
+  582  git status
+  583  git add . 
+  584  git commit --amend -m "commit 03 de MathiasCurbelo"
+  585  git push origin feature02
+  586  git status
+  587  nano resumen.txt 
+  588  git add .
+  589  git commit -m "commit 04 de MathiasCurbelo, arreglo de 03"
+  590  git push origin feature02
+  591  git pull
+  592  git pull origin feature02
+  593  cd ..
+  594  git status
+  595  git add .
+  596  git commit -m "commit 04 de MathiasCurbelo"
+  597  git push origin feature02
+  598  git checkout main
+  599  ls
+  600  mv comandos.txt comandosUtilizados.txt
+  601  ls
+  602  history 50 > comandosUtilizados.txt
+  603  cat comandosUtilizados.txt
+  604  history 100 > comandosUtilizados.txt
